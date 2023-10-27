@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    margin-top: 8rem;
+  background-image:url("20-3670x2462.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.clock {
+    
+margin: auto;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(53, 67, 255, 0.631);
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+}
+.child {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 39, 39);
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+}
+.child h1 {
+    color: rgb(255, 255, 255);
+}

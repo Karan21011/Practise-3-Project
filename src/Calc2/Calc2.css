@@ -1,0 +1,49 @@
+body {
+  position: absolute;
+  left: 30%;
+  top: 3rem;
+}
+
+.calc {
+  width: 320px;
+}
+#answer {
+  background-color: #000000;
+  border: 3px solid rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  font-size: 35px;
+  width: 295px;
+  height: 45px;
+  text-align: right;
+}
+
+.button {
+  background: rgb(221, 221, 221);
+  height: 80px;
+  width: 80px;
+  color: rgb(0, 0, 0);
+  font: size 30px;
+  border: 0.1em solid rgb(151, 151, 151);
+}
+.button:hover {
+  background: rgb(229, 255, 0);
+}
+
+.button1 {
+  width: 320px;
+  font-size: large;
+}
+
+.button2 {
+  background: rgb(255, 88, 10);
+  height: 80px;
+  width: 80px;
+
+  font: size 30px;
+  border: 0.1em solid rgb(151, 151, 151);
+}
+
+.button2:hover {
+  background: rgb(29, 172, 255);
+}
